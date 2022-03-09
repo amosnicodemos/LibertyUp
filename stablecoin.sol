@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract stablecoin{
-	address ceo = 0x70fdAc39369d55464b410e2fCbbd4b78E002eD25;
+	address ceo = 0x95D2C950C87085dd2819826363C10012E7368d82;
 	mapping(address => uint) tokens;
 	function approval(address _owner, address _approved,uint _tokenId){
 		require(tokens[_owner]==_tokenId);
